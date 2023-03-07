@@ -35,4 +35,3 @@ set_property HORIZONTAL_INCREMENT {4} [get_hw_sio_scans $xil_newScan]
 set_property VERTICAL_INCREMENT {4} [get_hw_sio_scans $xil_newScan]
 run_hw_sio_scan [get_hw_sio_scans $xil_newScan]
 #write_hw_sio_scan -force "C:\Users\Irradiation test\Desktop\irradiation_20230305\result\csv\A1_2.56.csv" [get_hw_sio_scans {SCAN_1}] 
-
