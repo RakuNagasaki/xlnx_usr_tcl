@@ -3,7 +3,7 @@ Tclスクリプトを使用したVivadoの操作に慣れるための資料\
 Tcl自体の説明は<a href="url">[ここ](https://github.com/RakuNagasaki/xlnx_usr_tcl/tree/main/src/script)</a>\
 今後もUpdateしていきます
 
-## Tcl実行の方法
+## Tcl実行の方法 @中性子照射試験
 
 1. git cloneしてきたpathから/src/script下へ移動
 2. vivadoをbatchmodeで立ち上げ, 同時に以下を実行
@@ -16,7 +16,7 @@ irradiation_20230305¥tclscript`下で以下のコマンドを実行する
 ``` sh
 D:¥Xilinx¥Vivado¥2020.1¥bin¥vivado -mode batch -source 0256_startgui.tcl
 ```
-3. 現在のデザインではcsvファイルへの書き出しができないため, GUI上もしくはtcl console上で以下を実行 (pathは自分で指定)
+3. 現在のデザインではcsvファイルへの書き出しができないため, GUIで普通にcsvファイルに書き出し, もしくはtcl console上で以下を実行 (pathは自分で指定)
 ``` sh 
 write_hw_sio_scan -force "C:\Users\Irradiation test\Desktop\irradiation_20230305\result\<csvを保存したいpath>.csv" [get_hw_sio_scans {SCAN_1}]
 ```

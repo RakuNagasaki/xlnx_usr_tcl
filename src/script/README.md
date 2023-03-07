@@ -1,4 +1,6 @@
 ## Tclの説明
+### なぜTclを使うか
+
 ### `0256_startgui.tcl`で行っていること
 https://docs.xilinx.com/v/u/ja-JP/ug835-vivado-tcl-commands を参考
 
