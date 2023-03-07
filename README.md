@@ -1,15 +1,16 @@
-## レポジトリについて
+## 🚧レポジトリについて
 Tclスクリプトを使用したVivadoの操作に慣れるための資料\
-🚧今後もUpdateしていきます
+今後もUpdateしていきます
 
 ## Tcl実行の方法
 
-1. git cloneしてきたpathから/src下へ移動
+1. git cloneしてきたpathから/src/script下へ移動
 2. vivadoをbatchmodeで立ち上げ, 同時に以下を実行
 ``` sh
 <vivado実行ファイルへのパス> -mode batch -source <*>.tcl
 ```
-今回のワークステーションでは, コマンドプロンプトを開き, `C:¥Users¥Irradiation test¥Desktop¥
+今回のKC705側ワークステーションでは, git cloneする必要はない.\
+コマンドプロンプトを開き, `C:¥Users¥Irradiation test¥Desktop¥
 irradiation_20230305¥tclscript`下で以下のコマンドを実行する
 ``` sh
 D:¥Xilinx¥Vivado¥2020.1¥bin¥vivado -mode batch -source 0256_startgui.tcl
