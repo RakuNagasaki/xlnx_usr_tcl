@@ -1,7 +1,6 @@
-## 🚧レポジトリについて
+## 📁レポジトリについて
 Tclスクリプトを使用したVivadoの操作に慣れるための資料\
-Tcl自体の説明は<a href="url">[ここ](https://github.com/RakuNagasaki/xlnx_usr_tcl/tree/main/src/script)</a>\
-今後もUpdateしていきます
+Tcl自体の説明は<a href="url">https://github.com/RakuNagasaki/xlnx_usr_tcl/tree/main/src/script</a>\
 
 ## Tcl実行の方法 @中性子照射試験
 
