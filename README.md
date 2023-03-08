@@ -16,6 +16,8 @@ irradiation_20230305¥tclscript`下で以下のコマンドを実行する
 ``` sh
 D:¥Xilinx¥Vivado¥2020.1¥bin¥vivado -mode batch -source 0256_startgui.tcl
 ```
+> vivado2020.1をbatchモードで立ち上げて, 同時に0256_startgui.tclを読み込ませるよ, という指令
+
 3. 現在のデザインではcsvファイルへの書き出しができないため, GUIで普通にcsvファイルに書き出し, もしくはtcl console上で以下を実行 (pathは自分で指定)
 ``` sh 
 write_hw_sio_scan -force "C:\Users\Irradiation test\Desktop\irradiation_20230305\result\<csvを保存したいpath>.csv" [get_hw_sio_scans {SCAN_1}]
